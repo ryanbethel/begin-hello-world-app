@@ -1,4 +1,6 @@
 exports.handler = async function http(req) {
+  const test = {test:{test:'test'}}
+  console.log(test?.test?.test)
 
   let html = `
 <!doctype html>
